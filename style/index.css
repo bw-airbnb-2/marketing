@@ -45,6 +45,9 @@ a{
     text-decoration:none;
 }  
 /* Styles for header*/
-header{
-    text-align:center;
+nav{
+  flex-wrap:flex;
+}
+nav a{
+  max-width: 25%;
 }
