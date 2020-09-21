@@ -8,28 +8,37 @@ header {
 }
 
 img.header-img {
+    width:70%;
+    margin-left:10%;
+}
+
+div.isometric {
     width:50%;
 }
 
 div.title {
     width:50%;
+    margin-top:8%;
 }
 
 h1 {
-    font-size:3rem;
+    font-size:4rem;
+    text-align:left;
+    margin-bottom:2%;
 }
 
 h2 {
-    font-size:1.7rem;
+    font-size:2.3rem;
+    margin-bottom:5%;
 }
 
 button.header-sign-up {
-    width:20%;
-    padding:2%;
+    width:23%;
+    padding:3%;
     border-radius:12px;
     background:#EA7D23;
     color:white;
-    font-size:1rem;
+    font-size:1.8rem;
     border:none;
 }
 
@@ -37,5 +46,95 @@ button.header-sign-up:hover {
     background:white;
     color:#EA7D23;
     border:#EA7D23;
+}
+
+h2.about {
+    text-align:center;
+    margin-top:10%;
+    margin-bottom:10%;
+    font-size:4rem;
+    background:#EA7D23;
+    color:white;
+    height:15vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+section.what-it-is {
+    display:flex;
+    justify-content:space-evenly;
+}
+
+h3 {
+    text-align:center;
+    font-size:3rem;
+    margin-bottom:5%;
+}
+
+p {
+    text-align:center;
+    font-size:2rem;
+}
+
+div.problem {
+    background:#EA7D23;
+    color:white;
+    padding:2%;
+    border-radius:12px;
+    width:30%;
+    height:40vh;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+}
+
+div.solution {
+    background:#EA7D23;
+    color:white;
+    padding:2%;
+    border-radius:12px;
+    width:30%;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+}
+
+img.footer-img {
+    margin-top:10%;
+    width:75%;
+    margin-bottom:10%;
+    margin-left:12%;
+}
+
+button.footer-sign-up {
+    width:15%;
+    padding:2%;
+    border-radius:12px;
+    background:white;
+    color:#EA7D23;
+    font-size:2rem;
+    border:none;
+   
+}
+
+button.footer-sign-up:hover {
+    background:#EA7D23;
+    color:white;
+    border:white;
+}
+
+footer {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background:#EA7D23;
+    height:40vh;
+}
+
+h2.footer-title {
+    color:white;
+    margin-top:5%;
+    font-size:3rem;
 }
 
