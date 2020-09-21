@@ -52,14 +52,40 @@ a{
 /* Styles for header*/
 
 nav{
-  flex-wrap:flex;
-  
+  flex-wrap:flex; 
 }
-nav .logo{
-  width:15%;
-  height: 5%;
+.top-content {
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
-nav a{
-  max-width: 25%;
-  flex-wrap: flex;
+.top-content nav{
+    display:flex;
+    justify-content: space-evenly;
+    padding:3% 0%;
+    width:100%;   
+}
+
+.top-content .links{
+    display:flex;
+    width:90%;
+
+}
+.top-content nav a{
+    text-decoration: none;
+    color:black;
+    padding: 3% 6%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin:0 auto;
+    width:80%;
+}
+.top-content .text-container {
+    width: 75%;
+    padding: 2% 1%;
+    padding-bottom: 20px;
 }
