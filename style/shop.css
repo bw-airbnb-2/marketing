@@ -1,0 +1,61 @@
+section {
+    display:flex;
+}
+
+img.jacket {
+    height:40vh;
+}
+img.shirt {
+    height:40vh;
+}
+img.hoodie {
+    height:40vh;
+}
+
+button {
+    padding:3%;
+    width:40%;
+    border-radius:12px;
+    background:#EA7D23;
+    color:white;
+    font-size:1.8rem;
+    border:none; 
+}
+
+button:hover {
+    padding:3%;
+    width:40%;
+    border-radius:12px;
+    background:white;
+    color:#EA7D23;
+    font-size:1.8rem;
+    border:#EA7D23; 
+}
+
+section.items {
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:5%;
+    text-align:center;
+}
+
+img {
+    margin-bottom:5%;
+    border:8px solid black;
+    border-radius:10%;
+    padding:3%;
+}
+
+h2 {
+    font-size:2rem;
+    margin-bottom:8%;
+}
+h2:hover {
+    font-size:3rem;
+    color:#EA7D23;
+    margin-bottom:8%;
+}
+
+h1 {
+    margin-bottom:3%;
+}
