@@ -197,6 +197,10 @@ nav {
     height:7vh;
   }
 
+  img.footer-img2 {
+      display:none;
+  }
+
   @media(max-width:800px) {
       img.logo {
         width:80%;
@@ -249,3 +253,47 @@ nav {
           height:35vh;
       }
   }
+
+  @media(max-width:500px) {
+      section.what-it-is {
+          display:flex;
+          flex-direction:column;
+          justify-content: space-around;
+      }
+
+      div.problem {
+          width:60%;
+      }
+      
+      div.problem {
+        width:60%;
+    }
+
+    div.solution {
+        width:60%;
+    }
+
+    h2.footer-title {
+        margin-top: 10%;
+        font-size:2rem;
+    }
+
+    img.footer-img {
+        height:10vh;
+    }
+
+    button.footer-sign-up {
+        width:50%;
+    }
+
+    img.footer-img {
+        display:none;
+    }
+
+    img.footer-img2 {
+        display:
+    }
+
+}
+
+  

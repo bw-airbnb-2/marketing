@@ -101,6 +101,7 @@ nav {
   height:12vh;
 }
 
+
  a.about-nav,a.blog-nav,a.team-nav,a.covid-nav,a.shop-nav {
   text-align:center;
   color:white;
@@ -152,10 +153,73 @@ img.logo {
     height:7vh;
   }
 
-  /* @media(max-width:800px) {
+  @media(max-width:800px) {
       img.logo {
         width:70%;
         height:7vh;
       }
-  } */
+      
+      img.down-arrow {
+          width:40%;
+          margin-top:30%;
+      }
+
+      a.about-nav,a.blog-nav,a.team-nav,a.covid-nav,a.shop-nav,a.signup-nav,a.login-nav {
+        width:40%;
+        font-size:1rem;
+    }
+
+    img.logo {
+        width:80%;
+        height:7vh;
+      }
+
+      img.hoodie-section,img.shirt-section,img.jacket-section {
+          width:30%;
+          height:20vh;
+      }
+
+      img.footer-logo {
+          width:30%;
+      }
+  }
+
+  @media(max-width:500px) {
+      section.items {
+          display:flex;
+          flex-direction:column;
+      }
+
+      button {
+          width:30%;
+          margin-bottom:20%;
+      }
+
+      h2 {
+          margin-bottom:2%;
+      }
+
+      img.footer-logo {
+          width:40%;
+      }
+
+      img.down-arrow {
+         width:50%;
+  }
+
+  nav {
+      height:50vh;
+      display:flex;
+      flex-direction:column;
+  }
+
+  img.logo {
+      width:100%;
+  }
+
+  a.about-nav,a.blog-nav,a.team-nav,a.covid-nav,a.shop-nav,a.signup-nav,a.login-nav {
+    padding:2%;
+}
+
+}
 
