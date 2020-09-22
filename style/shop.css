@@ -152,3 +152,10 @@ img.logo {
     height:7vh;
   }
 
+  /* @media(max-width:800px) {
+      img.logo {
+        width:70%;
+        height:7vh;
+      }
+  } */
+
