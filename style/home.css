@@ -33,7 +33,7 @@ h2 {
 }
 
 button.header-sign-up {
-    width:23%;
+    width:28%;
     padding:3%;
     border-radius:12px;
     background:#EA7D23;
@@ -45,7 +45,7 @@ button.header-sign-up {
 button.header-sign-up:hover {
     background:white;
     color:#EA7D23;
-    border:#EA7D23;
+    border:2px solid #EA7D23;
 }
 
 h2.about {
@@ -115,13 +115,13 @@ button.footer-sign-up {
     color:#EA7D23;
     font-size:2rem;
     border:none;
-   
 }
 
 button.footer-sign-up:hover {
     background:#EA7D23;
     color:white;
     border:white;
+    border:2px solid white;
 }
 
 footer {
@@ -138,3 +138,61 @@ h2.footer-title {
     font-size:3rem;
 }
 
+
+nav {
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    height:12vh;
+  }
+
+   a.about-nav,a.blog-nav,a.team-nav,a.covid-nav,a.shop-nav {
+    text-align:center;
+    color:white;
+    width:10%;
+    text-decoration:none;
+    background:#EA7D23;
+    padding:0.5%;
+    border-radius:12px;
+    font-size:1.5rem;
+  }
+  
+  a.login-nav,a.signup-nav {
+    text-align:center;
+    color:#EA7D23;
+    border:2px solid #EA7D23;
+    width:10%;
+    text-decoration:none;
+    padding:0.5%;
+    border-radius:12px;
+    font-size:1.5rem;
+  }
+  
+  a.about-nav:hover,a.blog-nav:hover,a.team-nav:hover,a.covid-nav:hover,a.shop-nav:hover {
+    text-align:center;
+    color:#EA7D23;
+    width:10%;
+    text-decoration:none;
+    background:white;
+    border:2px solid #EA7D23;
+    padding:0.5%;
+    border-radius:12px;
+    font-size:1.5rem;
+  }
+  
+  a.login-nav:hover,a.signup-nav:hover {
+    text-align:center;
+    color:white;
+    background: #EA7D23;
+    border:2px solid #EA7D23;
+    width:10%;
+    text-decoration:none;
+    padding:0.5%;
+    border-radius:12px;
+    font-size:1.5rem;
+  }
+  
+  img.logo {
+    width:40%;
+    height:7vh;
+  }
