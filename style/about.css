@@ -40,6 +40,7 @@ body{
   font-size:1.8rem;
   line-height:1.5;
   font-family: 'Montserrat', sans-serif;
+  background:aqua;
 }
 h1{
   font-family: 'Montserrat', sans-serif;
@@ -48,52 +49,142 @@ h1{
 }
 a{
     text-decoration:none;
+    color:black;
 }  
 /* Styles for header*/
 
+.top-content {
+  max-width: 100%;
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.top-content nav{
+  display:flex;
+  flex-wrap:flex;
+  justify-content: space-evenly;
+  width:100%;
+  max-width:100%;   
+}
+.top-content nav a{
+  text-decoration: none;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  margin:0 auto;
+}
+.top-content .logo{
+  max-width:20%;
+}
+.top-content .links{
+  display:flex;
+  width:70%;
+  max-width:70%;
+}
+.top-content .solo{
+  color:white;
+  background-color:#EA7D23;
+  border-radius:40%;
+  padding: 0 2%;
+  margin: 2% 1%;
+}
+.top-content nav .solo:hover{
+  color:#EA7D23;
+  background-color:white;
+}
+.top-content .text-container {
+  width: 75%;
+  padding: 3% 6%;
+  text-align:center;
+}
+.top-content p{
+  max-width: 55%;
+  width:55%;
+  text-align: center;
+}
+#home{
+  height: 400px;
+  width:90%;
+  overflow:hidden;
+  padding:3% 3%;
+}
+section{
+  display:flex;
+  flex-wrap: wrap;
+  padding: 2% 3%;
+}
+.describe{
+  text-align:center;
+  padding: 3% 10%;
+}
+.describe h2{
+  font-size: 3rem;
+  text-align: center;
+  padding: 2% auto;
+}  
+section .half{
+  display:flex;
+  flex-wrap: wrap;
+  max-width: 40%;
+  margin: 0 5%;
+  text-align:center;
+}
+section .half h2{
+  text-align:center;
+  padding: 1% 0;
+  font-size: 2.4rem;
+}
+.half .icon{
+  align-items:center;
+  margin: 0 30%;
+  border-radius:30%;
+}
+.describe #house{
+  height:500px;
+  width: 100%;
+  padding: 5% 0%;
+  overflow:hidden;
+  margin: 0%;
+}
+.top-content {
+  max-width: 100%;
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-bottom: 1px dashed black;
+}
+footer nav{
+  display:flex;
+  flex-wrap:flex;
+  justify-content: space-evenly;
+  width:100%;
+  max-width:100%;   
+}
+footer .logo{
+  max-width:20%;
+}
+footer .links{
+  display:flex;
+  width:70%;
+  max-width:70%;
 
-nav{
-    flex-wrap:flex; 
-  }
-  .top-content {
-      width:100%;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-      margin-bottom: 20px;
-      border-bottom: 1px dashed black;
-  }
-  .top-content nav{
-      display:flex;
-      justify-content: space-evenly;
-      padding:3% 0%;
-      width:100%;   
-  }
-  
-  .top-content .links{
-      display:flex;
-      width:90%;
-  }
+}
+footer nav a{
+  text-decoration: none;
+  color:black;
+  padding: 6% 3%;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  margin:0 auto;
+}
+@media(max-width: 800px){
+
+}
+@media(max-width: 500px){
   .top-content nav a{
-      text-decoration: none;
-      color:black;
-      padding: 3% 6%;
-      display:flex;
-      justify-content: space-between;
-      align-items:center;
-      margin:0 auto;
-      width:80%;
-  }
-  .top-content .text-container {
-      width: 75%;
-      padding: 2% 1%;
-      padding-bottom: 20px;
-  }
-  @media(max-width: 800px){
-
-  }
-  @media(max-width: 500px){
-      .top-content nav a{
           flex-flow: column;
-      }
   }
+}
