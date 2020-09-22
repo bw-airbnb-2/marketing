@@ -29,7 +29,7 @@ button:hover {
     background:white;
     color:#EA7D23;
     font-size:1.8rem;
-    border:#EA7D23; 
+    border:2px solid #EA7D23; 
 }
 
 section.items {
@@ -49,11 +49,6 @@ img.hoodie,img.shirt,img.jacket {
 
 h2 {
     font-size:2rem;
-    margin-bottom:8%;
-}
-h2:hover {
-    font-size:3rem;
-    color:#EA7D23;
     margin-bottom:8%;
 }
 
@@ -97,6 +92,8 @@ img.footer-logo {
     height:15vh;
 }
 
+
+/* navigation starts */
 nav {
   display:flex;
   align-items:center;
