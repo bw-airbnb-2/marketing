@@ -1,0 +1,98 @@
+section {
+    display:flex;
+}
+
+img.jacket {
+    height:40vh;
+}
+img.shirt {
+    height:40vh;
+}
+img.hoodie {
+    height:40vh;
+}
+
+button {
+    padding:3%;
+    width:40%;
+    border-radius:12px;
+    background:#EA7D23;
+    color:white;
+    font-size:1.8rem;
+    border:none; 
+}
+
+button:hover {
+    padding:3%;
+    width:40%;
+    border-radius:12px;
+    background:white;
+    color:#EA7D23;
+    font-size:1.8rem;
+    border:#EA7D23; 
+}
+
+section.items {
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:5%;
+    text-align:center;
+    margin-bottom:20%;
+}
+
+img.hoodie,img.shirt,img.jacket {
+    margin-bottom:5%;
+    border:8px solid black;
+    border-radius:10%;
+    padding:3%;
+}
+
+h2 {
+    font-size:2rem;
+    margin-bottom:8%;
+}
+h2:hover {
+    font-size:3rem;
+    color:#EA7D23;
+    margin-bottom:8%;
+}
+
+h1 {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:black;
+    color:white;
+    height:20vh;
+    margin-bottom:3%;
+}
+
+header{
+    display:flex;
+    justify-content:center;
+    background-image: url('../style/Screen Shot 2020-09-22 at 8.21.06 AM.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:90vh;
+    width:100%;
+    display:flex;
+}
+
+img.down-arrow {
+  margin-top:15%;
+    width:20%;
+    height:30vh;
+}
+
+footer {
+    display:flex;
+    background:#EA7D23
+}
+
+img.logo {
+    display:flex;
+    align-items:center;
+    width:15%;
+    height:15vh;
+}
