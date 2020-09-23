@@ -29,7 +29,7 @@ button:hover {
     background:white;
     color:#EA7D23;
     font-size:1.8rem;
-    border:#EA7D23; 
+    border:2px solid #EA7D23; 
 }
 
 section.items {
@@ -49,11 +49,6 @@ img.hoodie,img.shirt,img.jacket {
 
 h2 {
     font-size:2rem;
-    margin-bottom:8%;
-}
-h2:hover {
-    font-size:3rem;
-    color:#EA7D23;
     margin-bottom:8%;
 }
 
@@ -87,12 +82,165 @@ img.down-arrow {
 
 footer {
     display:flex;
-    background:#EA7D23
+    background:#EA7D23;
 }
 
-img.logo {
+img.footer-logo {
     display:flex;
     align-items:center;
     width:15%;
     height:15vh;
 }
+
+
+/* navigation starts */
+nav {
+  display:flex;
+  align-items:center;
+  justify-content:space-evenly;
+  height:12vh;
+}
+
+
+ a.about-nav,a.blog-nav,a.team-nav,a.covid-nav,a.shop-nav {
+  text-align:center;
+  color:white;
+  width:10%;
+  text-decoration:none;
+  background:#EA7D23;
+  padding:0.5%;
+  border-radius:12px;
+  font-size:1.5rem;
+}
+
+a.login-nav,a.signup-nav {
+  text-align:center;
+  color:#EA7D23;
+  border:2px solid #EA7D23;
+  width:10%;
+  text-decoration:none;
+  padding:0.5%;
+  border-radius:12px;
+  font-size:1.5rem;
+}
+
+a.about-nav:hover,a.blog-nav:hover,a.team-nav:hover,a.covid-nav:hover,a.shop-nav:hover {
+  text-align:center;
+  color:#EA7D23;
+  width:10%;
+  text-decoration:none;
+  background:white;
+  border:2px solid #EA7D23;
+  padding:0.5%;
+  border-radius:12px;
+  font-size:1.5rem;
+}
+
+a.login-nav:hover,a.signup-nav:hover {
+  text-align:center;
+  color:white;
+  background: #EA7D23;
+  border:2px solid #EA7D23;
+  width:10%;
+  text-decoration:none;
+  padding:0.5%;
+  border-radius:12px;
+  font-size:1.5rem;
+}
+
+img.logo {
+    width:40%;
+    height:7vh;
+  }
+
+  @media(max-width:800px) {
+      img.logo {
+        width:70%;
+        height:7vh;
+      }
+      
+      img.down-arrow {
+          width:40%;
+          margin-top:30%;
+      }
+
+      a.about-nav,a.blog-nav,a.team-nav,a.covid-nav,a.shop-nav,a.signup-nav,a.login-nav {
+        width:40%;
+        font-size:1rem;
+    }
+
+    img.logo {
+        width:80%;
+        height:7vh;
+      }
+
+      img.hoodie-section,img.shirt-section,img.jacket-section {
+          width:30%;
+          height:20vh;
+      }
+
+      img.footer-logo {
+          width:30%;
+      }
+  }
+
+  @media(max-width:500px) {
+      section.items {
+          display:flex;
+          flex-direction:column;
+      }
+
+      button {
+          width:30%;
+          margin-bottom:20%;
+      }
+
+      h2 {
+          margin-bottom:2%;
+      }
+
+      img.footer-logo {
+          width:40%;
+      }
+
+      img.down-arrow {
+         width:50%;
+  }
+
+  nav {
+      height:50vh;
+      display:flex;
+      flex-direction:column;
+  }
+
+  img.logo {
+      width:200%;
+  }
+
+  a.about-nav,a.blog-nav,a.team-nav,a.covid-nav,a.shop-nav,a.signup-nav,a.login-nav {
+    padding:2%;
+}
+
+  }
+
+@media(max-width:1024px) {
+    img.logo {
+      height:7vh;
+    }
+    
+    a.about-nav,a.blog-nav,a.team-nav,a.covid-nav,a.shop-nav,a.signup-nav,a.login-nav {
+        width:20%;
+        font-size:0.8rem;
+    }
+
+    nav {
+        margin-right:5%;
+    }
+
+    nav a {
+        margin-right:2%;
+    }
+
+
+}
+
