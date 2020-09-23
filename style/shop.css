@@ -214,12 +214,33 @@ img.logo {
   }
 
   img.logo {
-      width:100%;
+      width:200%;
   }
 
   a.about-nav,a.blog-nav,a.team-nav,a.covid-nav,a.shop-nav,a.signup-nav,a.login-nav {
     padding:2%;
 }
+
+  }
+
+@media(max-width:1024px) {
+    img.logo {
+      height:7vh;
+    }
+    
+    a.about-nav,a.blog-nav,a.team-nav,a.covid-nav,a.shop-nav,a.signup-nav,a.login-nav {
+        width:20%;
+        font-size:0.8rem;
+    }
+
+    nav {
+        margin-right:5%;
+    }
+
+    nav a {
+        margin-right:2%;
+    }
+
 
 }
 
