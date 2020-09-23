@@ -111,46 +111,81 @@ img.logo {
 
 //* flex*// 
 
-.flextime {
-  margin-bottom: 20px;
-  height:100vh;
-  display:flex;
-  flex-wrap:wrap;
-  justify-content:space-around;
-  text-align: left;
-  
-}
-.flextime div {
-      width:42%;
-      margin: 1%;
-      display:flex;
-      flex-wrap:wrap;
-      justify-content:left;
-      text-align: left;
-      padding: 2% 0;
-      margin-bottom: 20px;
-      border-bottom: 1px dashed black;
-  
-}
 
-.flextime h2 {
-  padding: 4% 0;
-  text-align:left;
-  width:42%;
-}
-.flextime div a {
-  padding: 0.5% 0;
-  margin-top: 2%;
-  margin-left: 10%;
-  width:100px;
-  background-color:white;
-  border-style: solid;
-  border-color: black;
-  text-size-adjust: 70%;
+header nav a {
   text-align:center;
-  border-radius: 6%;
-  border-width: 2px;
   color: black;
+  padding: 1.5% 0;
+  font-weight: 700;
+  width:10%;
+  font-size:0.85rem;
   text-decoration: none;
 }
 
+/*flex section*/
+
+h1, p, .name, .blogarticles {	
+  text-align: center;	
+  margin: 2%;	
+}	
+h1, {
+  font-size:6rem;
+  margin:0;
+}
+
+.blogtitle {
+  font-size:4rem;
+  text-align:center;
+}
+
+.blog-intro-page img {
+    height:39rem;	
+    object-fit: cover;	
+    display: block;	
+    margin: 2%;	
+    margin-top: 4%;	
+    margin-left: auto;	
+    margin-right: auto;	
+    border-radius: 2%;	
+}	
+
+.flextime {
+    display:flex;
+    justify-content: space-evenly;
+    width:80%;
+    margin:0 auto;
+}
+
+.flextimetwo {
+  display:flex;
+  justify-content: space-around;
+  width:80%;
+  margin:0 auto;
+}
+
+.blog-intro-page img {
+  display:flex;
+  width: 100%;
+}
+
+.intro-text-container {
+  text-align: center;
+}
+
+.blogarticles {
+  text-align:center;
+}
+}
+
+.blog-intro-page div {	
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg/1920px-John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg');		
+  background-position: center;	
+  color: white;	
+  width:80%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:60vh;
+  margin:5% 0;
+}	
