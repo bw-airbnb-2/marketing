@@ -36,72 +36,103 @@ vertical-align: baseline;
 html{
   font-size:62.5%;
 }
+
 body{
-  font-size:1.8rem;
+  font-size:5rem;
   line-height:1.5;
   font-family: 'Montserrat', sans-serif;
-  background:aqua;
+  
 }
 h1{
   font-family: 'Montserrat', sans-serif;
-  font-size:6rem;
+  font-size:13rem;
   text-align:center;
 }
+h2{
+  font-size: 7rem;
+}
+/* Styles for nav*/
 a{
+  width:10%;
+}
+nav {
+  display:flex;
+  align-items:center;
+  justify-content:space-evenly;
+  height:12vh;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background:white;
+}
+ a.about-nav,a.blog-nav,a.team-nav,a.covid-nav,a.shop-nav {
+  text-align:center;
+  color:white;
+  width:8%;
   text-decoration:none;
-  color:black;
-}  
-/* Styles for header*/
+  background:#EA7D23;
+  padding:0.5%;
+  border-radius:12px;
+  font-size:1.5rem;
+}
+a.login-nav,a.signup-nav {
+  text-align:center;
+  color:#EA7D23;
+  border:2px solid #EA7D23;
+  width:8%;
+  text-decoration:none;
+  padding:0.5%;
+  border-radius:12px;
+  font-size:1.5rem;
+}
+a.about-nav:hover,a.blog-nav:hover,a.team-nav:hover,a.covid-nav:hover,a.shop-nav:hover {
+  text-align:center;
+  color:#EA7D23;
+  width:8%;
+  text-decoration:none;
+  background:white;
+  border:2px solid #EA7D23;
+  padding:0.5%;
+  border-radius:12px;
+  font-size:1.5rem;
+}
+a.login-nav:hover,a.signup-nav:hover {
+  text-align:center;
+  color:white;
+  background: #EA7D23;
+  border:2px solid #EA7D23;
+  width:8%;
+  text-decoration:none;
+  padding:0.5%;
+  border-radius:12px;
+  font-size:1.5rem;
+}
+img.logo {  
+    height:8vh;    
+}
 
-.top-content {
+.top-content{
   max-width: 100%;
   width:100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.top-content nav{
-  display:flex;
-  flex-wrap:flex;
-  justify-content: space-evenly;
-  width:100%;
-  max-width:100%;   
-}
-.top-content nav a{
-  text-decoration: none;
-  display:flex;
-  justify-content: space-between;
-  align-items:center;
-  margin:0 auto;
-}
-.top-content .logo{
-  max-width:20%;
-}
-.top-content .links{
-  display:flex;
-  width:70%;
-  max-width:70%;
-}  
-.top-content .solo{
-  color:white;
-  background-color:#EA7D23;
-  border-radius:40%;
-  padding: 0 2%;
-  margin: 2% 1%;;
-}
-.top-content nav .solo:hover{
-  color: #EA7D23;
-  background-color:white;
-}  
+
 .top-content .text-container {
-  width: 75%;
-  padding: 3% 6%;
+  width: 75%; 
+  padding: 3% 6% 13% 6%;
   text-align:center;
 }
 .top-content #mask{
   margin: 0 40% 0 40%;
   padding: 0 0 5% 0%;
   border-radius:30%;
+}
+#orange{
+  background:#EA7D23;
+  color:white;
+  padding: 5% 0;
 }
 section{
   padding: 2% 3%;
@@ -116,7 +147,6 @@ section{
   padding: 3% 10%;
 }
 .describe h2{
-  font-size: 3rem;
   text-align: center;
   padding: 2% auto;
 }  
@@ -130,7 +160,6 @@ section .half{
 section .half h2{
   text-align:center;
   padding: 1% 0;
-  font-size: 2.4rem;
 }
 .describe #virus{
   margin:0 40% 0 40%;
@@ -152,7 +181,6 @@ footer .links{
   display:flex;
   width:70%;
   max-width:70%;
-
 }
 footer nav a{
   text-decoration: none;
