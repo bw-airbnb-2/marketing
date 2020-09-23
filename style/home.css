@@ -290,10 +290,42 @@ nav {
         display:none;
     }
 
-    img.footer-img2 {
-        display:
+    nav {
+        height:50vh;
+        display:flex;
+        flex-direction:column;
     }
+  
+    img.logo {
+        width:100%;
+    }
+  
+    a.about-nav,a.blog-nav,a.team-nav,a.covid-nav,a.shop-nav,a.signup-nav,a.login-nav {
+      padding:2%;
+  }
 
+  section.what-it-is {
+      margin-left:20%;
+      width:100%;
+  }
+
+  div.problem {
+      margin-bottom:10%;
+  }
+
+  div.solution {
+    margin-bottom:10%;
+}
+
+img.footer-img2 {
+    margin-left:15%;
+    margin-bottom:10%;
+    display:block;
+    width:70%;
+}
+button.header-sign-up {
+    width:70%;
+    font-size:1.5rem;
 }
 
   
