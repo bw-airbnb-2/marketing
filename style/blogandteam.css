@@ -296,3 +296,12 @@ border-radius:30%;
   
   
   }
+
+  @media (max-width:500px) {
+  .flextimetwo
+        flex-direction: column;
+        align-content: center;
+        padding: 30%;
+        display:center;
+        width: 100%;
+    }
