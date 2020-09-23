@@ -168,9 +168,7 @@ section .half h2{
   padding: 0 0 5% 0;
   border-radius:30%;
 }
-footer{
-  height:40%;
-}
+
 
 @media(max-width: 800px){
   h1{
@@ -182,6 +180,9 @@ footer{
   p{
     font-size:2rem;
   }
+  #virus{
+    margin: 0% 20%;
+  }
 }  
 @media(max-width: 500px){
   section .half{
@@ -190,5 +191,24 @@ footer{
     width:70%;
     align-items:center;
     align-content:center;
+  }
+  #virus{
+    align-items: center;
+    justify-items: center;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  h2{
+    font-size:1.2rem;
+  }
+  p{
+    font-size:1rem;
+  }
+  section h2{
+    font-size:1.2rem;
+  }
+  section p{
+    font-size:1rem;
   }
 }
