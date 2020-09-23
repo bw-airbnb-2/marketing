@@ -44,11 +44,11 @@ body{
 }
 h1{
   font-family: 'Montserrat', sans-serif;
-  font-size:16rem;
+  font-size:12rem;
   text-align:center;
 }
 h2{
-  font-size: 7rem;
+  font-size: 5rem;
 }
 
 /* Styles for header*/
@@ -187,15 +187,94 @@ section .half h2{
   padding:1% 3%;
 }
 
-footer{
-  height:300px;
-}
+@media(max-width:800px){
+  h1{
+    font-size:4rem;
+  }
+  h2{
+    font-size:2rem;
+  }
+  p{
+    font-size:2rem;
+  }
+  section .half h2{
+    font-size:2.5rem;
+  }
+  .half p{
+    font-size:2rem;
+  }
+  .describe h2{
+    font-size:3rem;
+  }
+  .describe p{
+    font-size:2rem;
+  }
+  .half .icon{
+    height:300px;
+  }
+  #house{
+    height:500px;
+  }
+  #home{
+    height:500px;
+  }
 
-@media(max-width: 800px){
-
 }
-@media(max-width: 500px){
-  .top-content nav a{
-          flex-flow: column;
+@media(max-width:500px){
+  h1{
+    font-size:3rem;
+  }
+  h2{
+    font-size:1.5rem;
+  }
+  p{
+    font-size:1.25rem;
+  }
+  section .half h2{
+    font-size:1.5rem;
+  }
+  .half p{
+    font-size:1.25rem;
+  }
+  .describe h2{
+    font-size:1.5rem;
+  }
+  .describe p{
+    font-size:1.25rem;
+  }
+  .half .icon{
+    height:150px;
+  }
+  #house{
+    height:300px;
+  }
+  #home{
+    height:300px;
+  }
+  section .half{
+    min-width:60%;
+    max-width:70%;
+    margin:5% 15%;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  h2{
+    font-size:1.2rem;
+  }
+  p{
+    font-size:1rem;
+  }
+  section h2{
+    font-size:1.2rem;
+  }
+  section p{
+    font-size:1rem;
+  }
+  #house{
+    height:200px;
+  }
+  #home{
+    height:200px;
   }
 }

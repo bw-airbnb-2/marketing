@@ -156,46 +156,61 @@ section .half{
   max-width: 40%;
   margin: 0 5%;
   text-align:center;
+  
 }
 section .half h2{
   text-align:center;
   padding: 1% 0;
 }
-.describe #virus{
-  margin:0 40% 0 40%;
+.describe #distance{
+  margin:5% 38% 5% 40%;
   align-items:center;
   padding: 0 0 5% 0;
-  border-radius:30%;
+  max-width:30%;
+  align-content:center;
 }
-footer nav{
-  display:flex;
-  flex-wrap:flex;
-  justify-content: space-evenly;
-  width:100%;
-  max-width:100%;   
+#bottom-section{
+  background:#EA7D23;
+  color:white;
+  margin: 5% 0;
 }
-footer .logo{
-  max-width:20%;
-}
-footer .links{
-  display:flex;
-  width:70%;
-  max-width:70%;
-}
-footer nav a{
-  text-decoration: none;
-  padding: 6% 3%;
-  display:flex;
-  justify-content: space-between;
-  align-items:center;
-  margin:0 auto;
-}
-
 @media(max-width: 800px){
-
-}
-@media(max-width: 500px){
-  .top-content nav a{
-    flex-flow: column;
+  h1{
+    font-size:8rem;
   }
+  h2{
+    font-size:4rem;
+  }
+  p{
+    font-size:2rem;
+  }
+}  
+@media(max-width: 500px){
+  section .half{
+    max-width:71%;
+    min-width:70%;
+    width:70%;
+    align-items:center;
+    align-content:center;
+  }
+  .describe #distance{
+    align-items: center;
+    justify-items: center;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  h2{
+    font-size:1.2rem;
+  }
+  p{
+    font-size:1rem;
+  }
+  section h2{
+    font-size:1.2rem;
+  }
+  section p{
+    font-size:1rem;
+  }
+
 }
