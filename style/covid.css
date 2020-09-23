@@ -156,6 +156,7 @@ section .half{
   max-width: 40%;
   margin: 0 5%;
   text-align:center;
+  
 }
 section .half h2{
   text-align:center;
@@ -167,35 +168,27 @@ section .half h2{
   padding: 0 0 5% 0;
   border-radius:30%;
 }
-footer nav{
-  display:flex;
-  flex-wrap:flex;
-  justify-content: space-evenly;
-  width:100%;
-  max-width:100%;   
-}
-footer .logo{
-  max-width:20%;
-}
-footer .links{
-  display:flex;
-  width:70%;
-  max-width:70%;
-}
-footer nav a{
-  text-decoration: none;
-  padding: 6% 3%;
-  display:flex;
-  justify-content: space-between;
-  align-items:center;
-  margin:0 auto;
+footer{
+  height:40%;
 }
 
 @media(max-width: 800px){
-
-}
+  h1{
+    font-size:8rem;
+  }
+  h2{
+    font-size:4rem;
+  }
+  p{
+    font-size:2rem;
+  }
+}  
 @media(max-width: 500px){
-  .top-content nav a{
-    flex-flow: column;
+  section .half{
+    max-width:71%;
+    min-width:70%;
+    width:70%;
+    align-items:center;
+    align-content:center;
   }
 }
