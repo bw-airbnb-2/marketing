@@ -21,28 +21,30 @@ font-size: 100%;
 font: inherit;  
 vertical-align: baseline;  
 }
-
-
-.blog-intro-page {
-    margin-bottom: 20px;
-    padding: 1.5% 0;
+/* general styles */
+#blog-intro-page {
+  margin-bottom: 20px;
+  padding: 1.5% 0;
 }
 }
 html {
-    font-size:63%
+  font-size:63%
 }
 
 body {
-    font-size:1.8rem;
-    line-height:1.2;
-    font-family: 'Montserrat', sans-serif;
+  font-size:1.8rem;
+  line-height:1.2;
+  font-family: 'Montserrat', sans-serif;
 
 }
 
 .container {
-  width: 800px;
-  margin: 0 auto;
+width: 800px;
+margin: 0 auto;
 }
+
+/* nav styles */
+
 
 #blog-intro-page {
   position: center;
@@ -107,21 +109,20 @@ img.logo {
     height:8vh;
   }
 
+  header nav a {
+    text-align:center;
+    color: black;
+    padding: 1.5% 0;
+    font-weight: 700;
+    width:10%;
+    font-size:0.85rem;
+    text-decoration: none;
+  }
 
 //* flex*// 
 
 
-header nav a {
-  text-align:center;
-  color: black;
-  padding: 1.5% 0;
-  font-weight: 700;
-  width:10%;
-  font-size:0.85rem;
-  text-decoration: none;
-}
 
-/*flex section*/
 
 h1, p, .name, .blogarticles {	
   text-align: center;	
@@ -188,7 +189,7 @@ h1, {
 .flextimetwo {
   display:flex;
   justify-content: space-evenly;
-  width:52%;
+  width:60%;
   margin:0 auto;
   align-items: flex-start;
   
@@ -236,6 +237,7 @@ h1, {
 
 }
 
+/* Meet the team styles */
 
 #collage {
   padding-top: 5%;
@@ -248,8 +250,8 @@ h1, {
 }
 
 #collage div img {
-  width: 30rem ;
-  height: 30rem;
+  width: 23rem ;
+  height: 25rem;
   border-radius:30%;
 
 }
@@ -261,6 +263,10 @@ h1, {
   box-shadow:.5rem .5rem 6rem #EA7D23;
 }
 #collagethree div img:hover {
+  box-shadow:.5rem .5rem 6rem #EA7D23;
+}
+
+#collagefour div img:hover {
   box-shadow:.5rem .5rem 6rem #EA7D23;
 }
 
@@ -276,8 +282,8 @@ padding-top: 5%;
 }
 
 #collagetwo div img {
-width: 30rem ;
-height: 30rem;
+  width: 23rem ;
+  height: 25rem;
 border-radius:30%;
 
 }#collagethree {
@@ -292,22 +298,31 @@ border-radius:30%;
   }
   
   #collagethree div img {
-  width: 30rem ;
-  height: 30rem;
+    width: 23rem ;
+    height: 25rem;
   border-radius:30%;
   
   
   }
-  footer img {
-    height:60rem;	
-    object-fit: cover;	
-    display: block;	
-    margin: 2%;	
-    margin-top: 4%;	
-    margin-left: auto;	
-    margin-right: auto;	
-  	
-}	
+
+
+  #collagefour {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-top: 5%;
+
+  }
+
+  #collagefour div img {
+    width: 23rem ;
+    height: 25rem;
+    border-radius:30%;
+
+  }
+/* Responsive design styles */
+
   @media (max-width:1200px) {
   .flextimetwo {
         flex-direction: column;
@@ -315,11 +330,15 @@ border-radius:30%;
         display:center;
         width: 80%;
     }
+
+    section {
+      align-content: center;
+    }
     
     
-    #collage, #collagetwo, #collagethree { 
+    #collage, #collagetwo, #collagethree, #collagefour { 
       flex-direction: column;
-      padding: 30%;
+      padding-left: 30%;
       align-content: center;
       display:center;
       width: 100%
@@ -335,15 +354,18 @@ border-radius:30%;
           width: 80%;
       }
   
-  
+      section {
+        align-content: center;
+      }
 
     #collage, #collagetwo, #collagethree { 
       flex-direction: column;
-      padding: 30%;
+      padding-left: 20%;
       align-content: center;
       display:center;
       width: 100%
 
 
   }
-}
+
+  }
