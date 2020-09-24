@@ -188,11 +188,13 @@ h1, {
 .flextimetwo {
   display:flex;
   justify-content: space-evenly;
-  width:50%;
+  width:52%;
   margin:0 auto;
-  align-items: center;
+  align-items: flex-start;
   
 }
+
+
 
 .blog-intro-page img {
   display:flex;
@@ -296,12 +298,51 @@ border-radius:30%;
   
   
   }
-
-  @media (max-width:500px) {
-  .flextimetwo
+  footer img {
+    height:60rem;	
+    object-fit: cover;	
+    display: block;	
+    margin: 2%;	
+    margin-top: 4%;	
+    margin-left: auto;	
+    margin-right: auto;	
+  	
+}	
+  @media (max-width:1200px) {
+  .flextimetwo {
         flex-direction: column;
         align-content: center;
-        padding: 30%;
         display:center;
-        width: 100%;
+        width: 80%;
     }
+    
+    #collage, #collagetwo, #collagethree { 
+      flex-direction: column;
+      padding: 30%;
+      align-content: center;
+      display:center;
+      width: 100%
+
+
+  }
+  }
+  @media (max-width:600px) {
+    .flextimetwo, {
+          flex-direction: column;
+          align-content: center;
+          display:center;
+          width: 80%;
+      }
+  
+  
+
+    #collage, #collagetwo, #collagethree { 
+      flex-direction: column;
+      padding: 30%;
+      align-content: center;
+      display:center;
+      width: 100%
+
+
+  }
+}
