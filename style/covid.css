@@ -41,6 +41,7 @@ body{
   font-size:5rem;
   line-height:1.5;
   font-family: 'Montserrat', sans-serif;
+  max-width:100%
   
 }
 h1{
@@ -121,7 +122,7 @@ img.logo {
 
 .top-content .text-container {
   width: 75%; 
-  padding: 3% 6% 13% 6%;
+  padding: 3% 6% 8% 6%;
   text-align:center;
 }
 .top-content #mask{
@@ -163,18 +164,21 @@ section .half h2{
   padding: 1% 0;
 }
 .describe #distance{
-  margin:5% 38% 5% 40%;
+  margin:3% 40% 3% 40%;
   align-items:center;
-  padding: 0 0 5% 0;
-  max-width:30%;
+  max-width:40%;
   align-content:center;
+  width:30%;
 }
 #bottom-section{
   background:#EA7D23;
   color:white;
-  margin: 5% 0;
+  margin: 3% 0;
 }
 @media(max-width: 800px){
+  body{
+    max-width:100%;
+  }  
   h1{
     font-size:8rem;
   }
@@ -186,6 +190,9 @@ section .half h2{
   }
 }  
 @media(max-width: 500px){
+  body{
+    max-width: 100%;
+  }
   section .half{
     max-width:71%;
     min-width:70%;
@@ -196,6 +203,8 @@ section .half h2{
   .describe #distance{
     align-items: center;
     justify-items: center;
+    width:30%;
+    margin:3% 42% 0 42%;
   }
   h1{
     font-size: 2rem;
@@ -212,5 +221,19 @@ section .half h2{
   section p{
     font-size:1rem;
   }
-
+  img.logo {  
+    height:6vh;    
+}
+  a.about-nav,a.blog-nav,a.team-nav,a.covid-nav,a.shop-nav {
+    font-size:.7rem;
+  }
+  a.about-nav:hover,a.blog-nav:hover,a.team-nav:hover,a.covid-nav:hover,a.shop-nav:hover {
+    font-size:.7rem;
+  }
+  a.login-nav:hover,a.signup-nav:hover {
+    font-size:.7rem;
+  }
+  a.login-nav,a.signup-nav {
+    font-size:.7rem;
+  }
 }
