@@ -308,12 +308,41 @@ border-radius:30%;
     margin-right: auto;	
   	
 }	
-  @media (max-width:500px) {
+  @media (max-width:1200px) {
   .flextimetwo {
         flex-direction: column;
         align-content: center;
-        padding: 30%;
         display:center;
-        width: 30%;
+        width: 80%;
     }
+    
+    #collage, #collagetwo, #collagethree { 
+      flex-direction: column;
+      padding: 30%;
+      align-content: center;
+      display:center;
+      width: 100%
+
+
   }
+  }
+  @media (max-width:600px) {
+    .flextimetwo, {
+          flex-direction: column;
+          align-content: center;
+          display:center;
+          width: 80%;
+      }
+  
+  
+
+    #collage, #collagetwo, #collagethree { 
+      flex-direction: column;
+      padding: 30%;
+      align-content: center;
+      display:center;
+      width: 100%
+
+
+  }
+}
