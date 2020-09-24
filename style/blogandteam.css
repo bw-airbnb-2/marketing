@@ -316,6 +316,7 @@ border-radius:30%;
         width: 80%;
     }
     
+    
     #collage, #collagetwo, #collagethree { 
       flex-direction: column;
       padding: 30%;
