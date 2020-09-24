@@ -40,7 +40,7 @@ body{
   font-size:5rem;
   line-height:1.5;
   font-family: 'Montserrat', sans-serif;
-  
+  max-width:100%;
 }
 h1{
   font-family: 'Montserrat', sans-serif;
@@ -245,12 +245,6 @@ section .half h2{
   .half .icon{
     height:150px;
   }
-  #house{
-    height:300px;
-  }
-  #home{
-    height:300px;
-  }
   section .half{
     min-width:60%;
     max-width:70%;
@@ -276,5 +270,21 @@ section .half h2{
   }
   #home{
     height:200px;
+  }
+  img.logo {  
+    height:6vh;
+    overflow:hidden;    
+}
+  a.about-nav,a.blog-nav,a.team-nav,a.covid-nav,a.shop-nav {
+    font-size:.7rem;
+  }
+  a.about-nav:hover,a.blog-nav:hover,a.team-nav:hover,a.covid-nav:hover,a.shop-nav:hover {
+    font-size:.7rem;
+  }
+  a.login-nav:hover,a.signup-nav:hover {
+    font-size:.7rem;
+  }
+  a.login-nav,a.signup-nav {
+    font-size:.7rem;
   }
 }
