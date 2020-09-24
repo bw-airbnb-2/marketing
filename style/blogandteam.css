@@ -140,7 +140,7 @@ h1, {
 }
 
 .blog-intro-page img {
-    height:60rem;	
+    height:20rem;	
     object-fit: cover;	
     display: block;	
     margin: 2%;	
@@ -172,15 +172,13 @@ h1, {
   
 }
 .intro {
-  font-size: 5rem;
-  text-align: left;
-  margin-left: 20%;
+  font-size: 4rem;
+  text-align: center;
 }
 
 .introtwo {
   font-size: 5rem;
-  text-align: left;
-  margin-left: 20%;
+  text-align: center;
   margin-bottom: 2%;
 }
 .blogtitle:hover {
@@ -192,6 +190,7 @@ h1, {
   width:60%;
   margin:0 auto;
   align-items: flex-start;
+  text-align: center;
   
 }
 
@@ -202,12 +201,18 @@ h1, {
   width: 100%;
 }
 
+
+.blog-intro-page img:hover {	
+  opacity: 80%;	
+}	
+
+
 .intro-text-container {
   text-align: center;
 }
 .h1s {
   text-align: center;
-  font-size: 6rem;
+  font-size: 5rem;
   color:#EA7D23;
 }
 .blogarticles {
@@ -221,9 +226,10 @@ h1, {
 
 }
 .flextimetwo div img{
-  width: 68% ;
-  height: 700px;
+  width: 55% ;
+  height: 20rem;
   border-radius:10%;
+
 
 }
 
@@ -321,16 +327,41 @@ border-radius:30%;
     border-radius:30%;
 
   }
+  
+  .blogtitle {
+    font-size: 3.5rem;
+    padding-bottom: 3%;
+  }
 /* Responsive design styles */
 
-  @media (max-width:1200px) {
+  @media (max-width:1024px) {
+
+    .flextime {
+      display:center;
+      width: 70%;
+  }
   .flextimetwo {
-        flex-direction: column;
-        align-content: center;
+        flex-direction: row;
+        justify-content: space-between;
         display:center;
         width: 80%;
+        padding-bottom: 3%;
+        font-size: 1.3rem;
+    }
+    
+  
+    img.logo {
+      height:4vh;
     }
 
+    a.about-nav,a.blog-nav,a.team-nav,a.covid-nav,a.shop-nav,a.signup-nav,a.login-nav {
+      width:8%;
+      font-size:0.55rem;
+  }
+  a.about-nav:hover ,a.blog-nav:hover ,a.team-nav:hover ,a.covid-nav:hover ,a.shop-nav:hover ,a.signup-nav:hover ,a.login-nav:hover {
+    width:8%;
+    font-size:0.55rem;
+}
     section {
       align-content: center;
     }
@@ -347,7 +378,7 @@ border-radius:30%;
   }
   }
   @media (max-width:600px) {
-    .flextimetwo, {
+    .flextimetwo {
           flex-direction: column;
           align-content: center;
           display:center;
@@ -369,3 +400,4 @@ border-radius:30%;
   }
 
   }
+
